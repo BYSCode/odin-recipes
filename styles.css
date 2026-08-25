@@ -1,9 +1,13 @@
 body {
     background-color:rgb(84, 197, 241);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    width: 600px;
+    height: auto;
 }
 
 h1 {
+    display: inline;
     width: auto;
     height: auto;
     font-size: 50px;
@@ -11,32 +15,38 @@ h1 {
     text-align: center;
     color: blue;
     background-color: rgb(243, 243, 66);
-    box-sizing: conten-box;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-bottom: 0px;
-    margin-left: 100px;
+    box-sizing: content-box;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -20px;
+    margin-left: 20px;
     padding-top: 10px;
-    padding-right: auto;
+    padding-right: 50px;
     padding-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 20px;
     border: 5px solid black;
 }
 
 img {
-    width: 20%;
+    display: inline;
+    box-sizing: content-box;
+    width: 10%;
     height: auto;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    border: 5px solid black;
-   
+    margin-top: auto;
+    margin-right: 5px;
+    margin-bottom: -25px;
+    margin-left: 10px;
+    padding: 0;
+    border: 1px solid black;
+}
+
+ul {
+    margin-top: 30px;
 }
 
 li {
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: 100px;
